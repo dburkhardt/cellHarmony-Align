@@ -288,4 +288,4 @@ if __name__ == "__main__":
                                  min_cluster_correlation=args.min_correlation,
                                  genome=genome)
     write_results_to_file(q_results, args.output,labels=labels)
-    write_results_to_file(r_results, args.output[:-4]+'-refererence.txt',labels=labels)
+    write_results_to_file(r_results, args.output[:-4]+'-reference.txt',labels=labels)
